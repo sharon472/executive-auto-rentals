@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="class">
+    <div class="index">
+        <nav class="nav">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="reservation.html">Reservation</a>
+        </nav>
+    </div>
+    <header class="reserve">
+        <p class="rent">Rent Your Car At The Speed Of Business</p>
+        <h1 class="start">Start a Reservation</h1>
+
+    </header>
+
+   <main>
+    <div class="container">
+
+        <form action="#" method="post">
+            <div class="group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" required>
+            </div>
+
+            <div class="group">
+                <label for="idnumber">ID Number:</label>
+                <input type="text" id="idnumber" name="idnumber" required>
+            </div>
+
+
+            <div class="group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="group">
+                <label for="date">Reservation Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="group">
+                <label for="cartype">Type of Car:</label>
+                <select id="cartype" name="cartype" required>
+                    <option value="">--Select a car type--</option>
+                    <option value="prado">Prado</option>
+                    <option value="JEEP">Jeep</option>
+                    <option value="Fielder">Fielder</option>
+                    <option value="fortuner">Fortuner</option>
+                    <option value="Double CAB">Double CAB</option>
+                    <option value="CX5">CX5</option>
+                    <option value="toyoya axio">Toyota Axio</option>
+                    <option value="noah">Noah</option>
+                    <option value="RAV4">RAV4</option>
+                    <option value="vits">Vits</option>
+                    <option value="van">Van</option>
+                    <option value="Discovery">Discovery</option>
+
+                </select>
+            </div>
+
+            <div class="group">
+                <label for="duration">Duration (in days):</label>
+                <input type="number" id="duration" name="duration" required>
+            </div>
+
+            <div class="group">
+                <label>Drive Option:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="drive" value="chauffeured" required> Chauffeured</label>
+                    <label><input type="radio" name="drive" value="self"> Self Drive</label>
+                </div>
+            </div>
+
+            <div class="submit">
+                <button type="submit">Submit Reservation</button>
+            </div>
+        </form>
+    </div>
+
+    <section id="confirmation" style="display:none;">
+        <h2>Thank You for Choosing Executive Auto Rentals, <span id="name-display"></span>!</h2>
+        <p>Car: <span id="cartype-display"></span></p>
+        <p>Duration: <span id="duration-display"></span> days</p>
+        <p>We’ll contact you at <span id="phone-display"></span></p>
+    </section>
+    
+   </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Executive Auto Rentals. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:waithirasharon222@gmail.com">waithirasharon222@gmail.com</a> | Phone:
+                0112005682</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a> |
+                <a href="#" target="_blank">Instagram</a> |
+            </div>
+        </div>
+
+    </footer>
+    <script src="styles/scripts.js"></script>
+</body>
+
+</html>
