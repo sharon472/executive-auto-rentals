@@ -5,8 +5,11 @@
 
 > **Executive Auto Rentals** is a sophisticated car rental platform designed for individuals and businesses looking to rent high-end vehicles. The website provides an easy-to-use interface where users can browse a selection of vehicles, each featuring detailed descriptions and availability. The reservation process is seamless, allowing customers to book their ideal car directly through the website. With a responsive design that adapts to all screen sizes, **Executive Auto Rentals** ensures a premium user experience, whether on a desktop, tablet, or mobile device. The website also includes an informative About page, a dynamic reservation system, and an interactive confirmation message system using local storage, making it both functional and user-friendly.
 
-🔗 [Live Demo](https://your-demo-link-here.com)
+### ## Live Demo
+🔗 [Live Demo on Vercel](https://executive-auto-rentals.vercel.app)
 
+### ## GitHub Repository
+🔗 [GitHub Repository](https://github.com/sharon472/executive-auto-rentals)
 ---
 
 ### ## Features:
